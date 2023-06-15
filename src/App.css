@@ -164,3 +164,9 @@
 .outer-container .inner-container .btn{
   margin : 1.5rem;
 }
+
+
+.reload{
+  font-size : .8rem;
+  opacity : 0.8;
+  }
