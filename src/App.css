@@ -169,7 +169,9 @@
 .reload{
   font-size : .8rem;
   opacity : 0.8;
-  }
-  .reload a{
-    color : blue; 
-  }
+  margin-bottom: .5rem;
+  margin-right : 1rem;
+}
+.reload a{
+  color : blue; 
+}
