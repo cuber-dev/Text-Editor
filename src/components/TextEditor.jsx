@@ -12,7 +12,6 @@ function TextEditor({ fileContent }) {
     return ( <>
         <h1 className="heading">Text Editor</h1>
         <div className="editor-container">
-            <p className='reload'>Want To Upload another File <a onClick={() => window.location.reload()}>Click Here!</a></p>
             <form>
                 <textarea
                 name="" 
@@ -23,6 +22,8 @@ function TextEditor({ fileContent }) {
                 onChange={(e) => setContent(e.target.value)}
                 >
                 </textarea>
+                <p className='reload'>Want To Upload another File <a onClick={() => window.location.reload()}>Click Here!</a></p>
+            
                 <button type="submit" className="btn" onClick={handleSubmit}>Submit</button>
             </form>
         </div>
