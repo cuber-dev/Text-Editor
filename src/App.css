@@ -170,7 +170,7 @@
   font-size : .7rem;
   opacity : 0.8;
   margin-bottom: 1rem;
-  margin-right : 2rem;
+  margin-right : 3rem;
 }
 .reload a{
   color : blue; 
@@ -179,6 +179,6 @@
 
 @media (max-width : 450px ){
   .outer-container .inner-container{
-    padding : 2.3rem;
+    width : 80%;
   }
 }
