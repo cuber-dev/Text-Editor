@@ -175,3 +175,10 @@
 .reload a{
   color : blue; 
 }
+
+
+@media (max-width : 450px ){
+  .outer-container .inner-container{
+    padding : 2.3rem;
+  }
+}
