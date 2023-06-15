@@ -167,10 +167,10 @@
 
 
 .reload{
-  font-size : .8rem;
+  font-size : .7rem;
   opacity : 0.8;
-  margin-bottom: .5rem;
-  margin-right : 1rem;
+  margin-bottom: 1rem;
+  margin-right : 2rem;
 }
 .reload a{
   color : blue; 
