@@ -59,6 +59,9 @@
   border: .3px solid #000;
   line-height: 1.5rem;
 }
+#text-area:focus{
+  border-color: #f18959;
+}
 
 .btn{
   padding: .6rem 1rem;
@@ -180,6 +183,6 @@
 
 @media (max-width : 450px ){
   .outer-container .inner-container{
-    width : 70%;
+    width : 75%;
   }
 }
