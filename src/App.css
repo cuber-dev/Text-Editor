@@ -8,6 +8,7 @@
 *{
   margin : 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .file-input{
   display: none;
@@ -179,6 +180,6 @@
 
 @media (max-width : 450px ){
   .outer-container .inner-container{
-    width : 80%;
+    width : 70%;
   }
 }

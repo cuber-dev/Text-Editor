@@ -28,7 +28,7 @@ function FileUpload({ setFileContent }) {
     return ( <>
         <h1 className="heading">Upload Text File</h1>
         <input type="file" name="file" id="file" className="file-input" onChange={handleFileUpload}/>
-        <label className="file-upload-label" htmlFor="file">Upload Text File <i className="fa-solid fa-file-arrow-up"></i></label>
+        <label className="file-upload-label" htmlFor="file">Upload <i className="fa-solid fa-file-arrow-up"></i></label>
     </> );
 }
 
