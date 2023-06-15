@@ -6,7 +6,6 @@ import './App.css'
 function App() {
   const [fileContent,setFileContent] = useState('')
   return (<>
-    
     { fileContent ? 
     <TextEditor fileContent={fileContent}/> :
     <FileUpload setFileContent={setFileContent}/>}

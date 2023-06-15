@@ -28,7 +28,9 @@ function DownloadWindow({ content , setIsSubmitted }) {
                     type="text" 
                     className="file-name-input"
                      placeholder="Enter The File Name" 
-                     onChange={(e) => setFileName(e.target.value)} />
+                     onChange={(e) => setFileName(e.target.value)} 
+                     value={fileName}
+                     />
                     
                     <button 
                     type="submit" 

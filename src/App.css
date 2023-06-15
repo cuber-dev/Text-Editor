@@ -134,6 +134,9 @@
   border: 1px solid #000;
   outline: none;
 }
+.outer-container .inner-container input:focus{
+  border-color: #f18959;
+}
 .outer-container .inner-container label{
   display: block;
   text-align: left;
